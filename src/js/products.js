@@ -6,19 +6,11 @@ async function pageInit(){
     const productRef = dataRef(db, 'products/');
     const productSnapShot = await get(productRef)
     const data = productSnapShot.val();
-    
-    // ES Modules For The Render Function
-    // JS Client  Arrays[{},{},{},{},{}]
-    // Firebase Object of ojbects  {{},{},{},{}}
-    // Creating An Array from Objects
-    // Object.keys() Object.entries() Object.values() return array
-    // Object propert  Obj.prop   or  Obj['key']
-
-    // Render Function   component + data =====> DOM Content.
 
     Object.values(data).map(product=>{
+        console.log(product)
         const card = productItem(product)
-        document.querySelector('.card-container').append(card)
+        document.querySelector('main').append(card)
     })
 }
 
