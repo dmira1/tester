@@ -1,0 +1,31 @@
+header a svg {
+    color: red;
+    border: 1px solid red;
+    margin-right: 0.25rem;
+    border-radius: 1rem;
+}
+
+header a svg:hover {
+    color: black;
+    background-color: red;
+}
+
+.header-bg {
+    box-shadow: 1px 2px 5px slategray;
+    background-color: black;
+}
+
+.user ul{
+    margin-right: 2rem;
+    gap: 10%
+}
+
+.user a{
+    text-decoration: none;
+    color: slategrey
+}
+
+.user a:hover {
+    color: red
+}
+

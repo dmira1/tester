@@ -1,0 +1,65 @@
+.content {
+    width: 80vw;
+    height: 100vh;
+}
+
+.search-container {
+    text-align: center;
+}
+
+.card-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 45%;
+    height: 35vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    gap: 5%;
+    margin-top: 2%;
+}
+
+.product-img {
+    height: 50%;
+    border-bottom: 1px solid black;
+}
+
+.product-img img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-details {
+    height: 100%;
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    
+}
+
+.buttons svg {
+    color: black;
+}
+
+.buttons svg:hover {
+    color: red;
+}
+
+.pages {
+    flex:wrap;
+    padding: 1rem;
+}
+
+.pages ul {
+    gap: 2%;
+}
+
+.pages a {
+    font-size: 1.25rem;
+}
