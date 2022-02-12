@@ -543,6 +543,70 @@ main {
   border-radius: 3px;
 }
 
+.edit {
+  text-align: center;
+}
+.edit h2 {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.form-control > label {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 0.25rem 1rem;
+  box-shadow: 0 0 1px 1px black;
+  background-color: blanchedalmond;
+  margin-top: 1rem;
+}
+.form-control > label:hover {
+  cursor: pointer;
+}
+
+.product-details {
+  text-align: left;
+  font-weight: 700;
+}
+.product-details > label {
+  width: 45%;
+  margin-bottom: 1rem;
+}
+.product-details > input {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.product-details #productType {
+  width: 50%;
+  height: 30px;
+}
+.product-details #productDesc {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.submitButton {
+  text-align: center;
+}
+.submitButton #submit {
+  font-weight: 700;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.display img {
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
 .dashboard {
   width: 20vw;
   height: 100vh;
