@@ -10,7 +10,7 @@ async function pageInit(){
     Object.values(data).map(product=>{
         console.log(product)
         const card = productItem(product)
-        document.querySelector('main').append(card)
+        document.querySelector('.card-container').append(card)
     })
 }
 

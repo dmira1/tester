@@ -1,13 +1,13 @@
-header a svg {
-    color: red;
-    border: 1px solid red;
+header a img {
+    border: 1px solid white;
     margin-right: 0.25rem;
     border-radius: 1rem;
 }
 
-header a svg:hover {
-    color: black;
+header a img:hover {
+    fill: black;
     background-color: red;
+    border-color: white;
 }
 
 .header-bg {
