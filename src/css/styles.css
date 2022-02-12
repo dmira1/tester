@@ -613,7 +613,7 @@ main {
   width: 20vw;
   height: 100vh;
   border-right: 1px solid black;
-  border-left: 1plx solid black;
+  border-left: 1px solid black;
 }
 
 .dashboard li:first-of-type {
@@ -702,7 +702,7 @@ main {
 }
 
 .pages {
-  flex: wrap;
+  flex-wrap: wrap;
   padding: 1rem;
 }
 
@@ -715,7 +715,6 @@ main {
 }
 
 footer {
-  border-top: 1px solid black;
   background-color: black;
   color: slategray;
 }

@@ -6,9 +6,9 @@ async function pageInit(){
     const productRef = dataRef(db, 'products/');
     const productSnapShot = await get(productRef)
     const data = productSnapShot.val();
+    
 
     Object.values(data).map(product=>{
-        console.log(product)
         const card = productItem(product)
         document.querySelector('.card-container').append(card)
     })
