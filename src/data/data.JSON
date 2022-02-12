@@ -2,7 +2,7 @@
     "products": {
         "-MtmsoSQ8VxmAT1U7qX3": {
             "key": "-MtmsoSQ8VxmAT1U7qX3",
-            "urlPath":"./static/images/thumbnail.jpg",
+            "urlPath":"thumbnail.jpg",
             "name":"Thumbnail PC",
             "type":"Mid-Tower PC",
             "price":"126999",

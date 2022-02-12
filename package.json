@@ -1,28 +1,26 @@
 {
   "name": "tester",
   "version": "1.0.0",
-  "description": "Hephaestus PC",
+  "description": "",
   "scripts": {
-    "start":"npx parcel src/*.html",
-    "build": "npx parcel build src/index.html",
+    "start":"npx parcel src/index.html",
+    "build":"npx parcel build src/index.html",
     "static": "xcopy \"./src/static\" \"dist\" /e /s /c /j /h"
+    
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmira1/tester.git"
   },
   "keywords": [],
-  "author": "Darryl Mira",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dmira1/tester/issues"
   },
+  "homepage": "https://github.com/dmira1/tester#readme",
   "dependencies": {
     "firebase": "^9.6.6",
     "parcel": "^2.3.1"
-  },
-  "devDependencies": {
-    "@parcel/packager-raw-url": "^2.3.1",
-    "@parcel/transformer-webmanifest": "^2.3.1"
   }
 }

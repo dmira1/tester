@@ -1,4 +1,4 @@
-function productItem({key, name, price, desc, urlPath, type}){
+function productItem ({key, name, price, desc, urlPath, type}){
     const template =`
         <div class="product-card">
             <div class="product-img">
@@ -22,7 +22,7 @@ function productItem({key, name, price, desc, urlPath, type}){
     `
     const element = document.createRange().createContextualFragment(template).children[0]
     addProductControls(element)
-    return element;
+    return element
 
 }
 
